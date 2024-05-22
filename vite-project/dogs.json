@@ -1,0 +1,37 @@
+[
+  {
+    "image_url": "https://images.dog.ceo/breeds/terrier-yorkshire/n02094433_1765.jpg",
+    "caption": "A happy Golden Retriever playing in the park.",
+    "date_taken": "2024-01-15"
+  },
+  {
+    "image_url": "https://images.dog.ceo/breeds/elkhound-norwegian/n02091467_402.jpg",
+    "caption": "A sleepy Bulldog taking a nap on the couch.",
+    "date_taken": "2024-02-03"
+  },
+  {
+    "image_url": "https://images.dog.ceo/breeds/dhole/n02115913_1244.jpg",
+    "caption": "A playful Beagle chasing a ball.",
+    "date_taken": "2024-03-22"
+  },
+  {
+    "image_url": "https://images.dog.ceo/breeds/mountain-bernese/n02107683_257.jpg",
+    "caption": "A curious Poodle sniffing flowers.",
+    "date_taken": "2024-04-10"
+  },
+  {
+    "image_url": "https://images.dog.ceo/breeds/bouvier/n02106382_4034.jpg",
+    "caption": "A cheerful Labrador Retriever swimming in a lake.",
+    "date_taken": "2024-05-07"
+  },
+  {
+    "image_url": "https://images.dog.ceo/breeds/bouvier/n02106382_4034.jpg",
+    "caption": "A cute Dachshund wearing a sweater.",
+    "date_taken": "2024-05-14"
+  },
+  {
+    "image_url": "https://images.dog.ceo/breeds/terrier-fox/n02095314_3527.jpg",
+    "caption": "A Shih Tzu with a fancy haircut.",
+    "date_taken": "2024-05-21"
+  }
+]
