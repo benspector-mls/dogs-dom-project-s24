@@ -10,6 +10,31 @@
     <div id="app">
       <h1>Dogs!</h1>
       <section>
+        <!-- What is the meaning/purpose of the attributes
+        of the form, input, and label? -->
+        <form aria-labelledby="dog-form-header">
+          <h2 id="dog-form-header">Add Your Dog Photo!</h2>
+        
+          <div>
+            <label for="image-url-input">Picture Url:</label>
+            <input type="text" id="image-url-input" name="imageURL">
+          </div>
+        
+          <div>
+            <label for="caption-input">Caption:</label>
+            <input type="text" id="caption-input" name="caption">
+          </div>
+        
+          <div>
+            <label for="date-input">Date</label>
+            <input type="text" id="date-input" name="date">
+          </div>
+          
+          <button>Submit</button>
+
+        </form>
+      </section>
+      <section>
         <ul id="dogs-list">
 
         </ul>
