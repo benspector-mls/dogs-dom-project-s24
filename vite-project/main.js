@@ -1,11 +1,5 @@
 import './style.css'
 import dogs from './dogs.json'
-/* 
-1. [DONE] create a container HTML to hold my "cards"
-2. [DONE] figure out how to create a single "card" dynamically (using hard-coded data)
-3. [DONE] create the cards using my array of data
-4. [DONE] style
-*/
 
 // take in information about a dog card
 // create a dog card and add it to the dog-list
