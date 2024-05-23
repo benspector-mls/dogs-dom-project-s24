@@ -1,5 +1,10 @@
 # Dog Cards
 
+**Part 0: Generate a list of dog data using ChatGPT**
+1. Use ChatGPT to generate a JSON file with data using the prompt:
+
+> "make me a json dataset for pictures of dogs. each picture should have an image URL, a caption, and a date taken"
+
 **Part 1: Dynamically Generate a List of Cards from a JSON file**
 1. [DONE] create a container HTML to hold my "cards"
 2. [DONE] figure out how to create a single "card" dynamically (using hard-coded data)
