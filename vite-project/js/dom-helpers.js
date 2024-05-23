@@ -1,10 +1,18 @@
-import dogs from '../dogs.json'
+import dogsFromJSON from '../dogs.json'
+import { setLocalStorageKey, getLocalStorageKey } from './local-storage-helpers';
+
+// if there are NO dogs already in localStorage...
+// use the dogs from dogs.json
+if (!getLocalStorageKey('dogs')) {
+  console.log('initializing dogs in local storage')
+  setLocalStorageKey('dogs', dogsFromJSON)
+}
 
 // take in information about a dog card
 // create a dog card and add it to the dog-list
-// used in the event handlers
+// used in the event handler
 export const makeDogCard = (dog) => {
-  const { image_url, caption, date_taken } = dog
+  const { image_url, caption, date_taken } = dog;
 
   const li = document.createElement('li');
   const imageContainer = document.createElement('div')
@@ -37,5 +45,6 @@ export const makeDogCard = (dog) => {
 // invoke makeDogCard
 // used in main.js
 export const initDogCards = () => {
-  dogs.forEach(makeDogCard)
+
+  getLocalStorageKey('dogs').forEach(makeDogCard)
 }
