@@ -1,16 +1,9 @@
 import dogsFromJSON from '../dogs.json'
-import { setLocalStorageKey, getLocalStorageKey } from './local-storage-helpers';
+import {
+  setLocalStorageKey,
+  getLocalStorageKey
+} from './local-storage-helpers';
 
-// if there are NO dogs already in localStorage...
-// use the dogs from dogs.json
-if (!getLocalStorageKey('dogs')) {
-  console.log('initializing dogs in local storage')
-  setLocalStorageKey('dogs', dogsFromJSON)
-}
-
-// take in information about a dog card
-// create a dog card and add it to the dog-list
-// used in the event handler
 export const makeDogCard = (dog) => {
   const { image_url, caption, date_taken } = dog;
 
@@ -41,10 +34,12 @@ export const makeDogCard = (dog) => {
   document.querySelector("#dogs-list").append(li);
 }
 
-// take the dogs json data and for each dog object
-// invoke makeDogCard
-// used in main.js
 export const initDogCards = () => {
-
+  // if there are NO dogs already in localStorage...
+  // use the dogs from dogs.json
+  if (!getLocalStorageKey('dogs')) {
+    setLocalStorageKey('dogs', dogsFromJSON)
+  }
+  // use the localStorage dogs, not the dogsFromJSON
   getLocalStorageKey('dogs').forEach(makeDogCard)
 }
