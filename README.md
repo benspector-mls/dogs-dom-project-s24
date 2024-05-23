@@ -1,5 +1,11 @@
 # Dog Cards
 
+- [Part 0: Generate a list of dog data using ChatGPT](#part-0-generate-a-list-of-dog-data-using-chatgpt)
+- [Part 1: Dynamically Generate a List of Cards from a JSON file](#part-1-dynamically-generate-a-list-of-cards-from-a-json-file)
+- [Part 2: Build a Form to Add New Cards](#part-2-build-a-form-to-add-new-cards)
+- [Part 3: Organize Into Modules](#part-3-organize-into-modules)
+- [Part 4: Local Storage](#part-4-local-storage)
+
 ## Part 0: Generate a list of dog data using ChatGPT
 1. Use ChatGPT to generate a JSON file with data using the prompt:
 
